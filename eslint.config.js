@@ -7,14 +7,7 @@ export default [
   { ignores: ['dist'] },
   {
     files: ['**/*.{js,jsx}'],
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
-      },
+    Remove ecmaVersion: 2020 from languageOptions, leaving only ecmaVersion: 'latest' within parserOptions for clarity.
     },
     plugins: {
       'react-hooks': reactHooks,

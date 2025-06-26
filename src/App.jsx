@@ -12,9 +12,7 @@ function App() {
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        get="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </get=>
+        Replace 'get' with 'a' and correct the tag to: <a href="https://react.dev" target="_blank">
       </div>
       <h1>Vite + React</h1>
       <div className="card">
