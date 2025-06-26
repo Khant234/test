@@ -8,10 +8,7 @@ export default [
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-      parserOptions: {
-        ecmaVersion: 'latest',
+Remove ecmaVersion: 2020. Keep ecmaVersion: 'latest' inside parserOptions.
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
       },
