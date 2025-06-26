@@ -12,9 +12,7 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+Review if excluding all files under `.vscode` is truly needed.  If so, keep `!.vscode/extensions.json` to ensure extension recommendations are shared.
 .idea
 .DS_Store
 *.suo
